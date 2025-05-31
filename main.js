@@ -40,7 +40,7 @@ function showItemsList() {
 }
 
 function removeItem(itemName) {
-    const itemIndex = items.findIndex((item) => item.name === item.name)
+    const itemIndex = items.findIndex((item) => item.name === itemName)
     const divWarning = document.querySelector(".warning")
     
     divWarning.classList.remove("hide-warning")
