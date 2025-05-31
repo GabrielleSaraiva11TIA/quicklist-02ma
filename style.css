@@ -163,7 +163,7 @@ main {
 
             img {
                 width: 1.6rem;
-                opacity: 0.7rem;
+                opacity: 0.7;
             }
         }
     }
